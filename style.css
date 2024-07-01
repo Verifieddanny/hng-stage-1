@@ -1,0 +1,106 @@
+*{
+        margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    position: relative;
+    width: 100%;
+    max-width: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    color: white;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+
+header {
+
+    background-color: #0d3972;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+main {
+    padding: 5rem 4rem ;
+      background: rgb(9,58,121);
+       background: linear-gradient(135deg, #5A9BD5 18%, #1E4F8B 100%);
+
+       overflow-x:hidden ;
+}
+.time-and-date{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+    flex-wrap: wrap;
+    row-gap: 1rem;
+}
+.profile{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.profile p{
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tech-goals{
+    margin: 4rem 0;
+}
+section {
+    margin-bottom: 20px;
+}
+
+
+img {
+ max-width: none;
+  height: auto;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 1rem 0;
+}
+a{
+    color: inherit !important;
+    text-decoration: none;
+}
+
+
+@media (max-width: 780px) {
+    header {
+        padding: 0.7rem;
+    }
+    main {
+        padding: 5rem 1rem 2rem 1rem;
+    }
+
+    .profile{
+        flex-direction: column;
+    }
+    .profile p{
+        margin: 2rem 0;
+    }
+    
+}
