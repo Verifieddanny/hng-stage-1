@@ -3,46 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Tech Goals</title>
+    <title>HNG Frontend task</title>
     <link rel="stylesheet" href="style.css">
     <script defer src="app.js"></script>
 
 </head>
 <body>
-    <header>
-        <h1 data-testid="slackDisplayName">devdanny</h1>
-    </header>
-    <main>
-            <section class="time-and-date">
-           
+    <header class="time-and-date">
+      
+            
             <p data-testid="currentTimeUTC"><span id="utcTime"></span></p>
             <p data-testid="currentDay"><span id="dayOfWeek"></span></p>
             <p data-testid="slackEmail">dannyclassic56@gmail.com</p>
-        </section>
+ 
+    </header>
+    <main>
         <section class="profile">
-            <p>My Name is Daniel Nwachukwu Chigozirim</p>
+            <div>
+                
+                <h1 data-testid="slackDisplayName" class="display-name">devdanny</h1>
+                <p>Hello 👋,  <br/> I'm Daniel Nwachukwu Chigozirim</p>
+            </div>
 
-            <img data-testid="slackProfilePicture" src="https://ca.slack-edge.com/T07466B189M-U07AREGBZAL-afad75a1d43f-512" alt="Slack Profile Picture"          >
-  
-
+            <img  src="https://ca.slack-edge.com/T07466B189M-U07AREGBZAL-afad75a1d43f-512"  alt="Slack Profile Picture"
+             data-testid="slackProfilePicture" />
         </section>
     
         <section class="tech-goals">
             <h2>My Tech Goals for the Next 2 Years</h2>
-            <ul>
-                <li>Becoming more Proficient in not just frontend engineering but across backend also</li>
-                <li>Becoming a fullstack web3 developer, creating Decentralized Applications</li>
-                <li>Hoping to make so much impact in the tech industry</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Useful Links</h2>
-            <ul>
-                <li><a data-testid="hngLink" href="https://hng.tech/learn" target="_blank">HNG Learn</a></li>
-                <li><a data-testid="keywordLink" href="https://keyword.dog" target="_blank">Keyword Dog</a></li>
-                <li><a data-testid="scrapeanywebLink" href="https://scrapeanyweb.site" target="_blank">Scrape Any Web</a></li>
-            </ul>
+            <dl>
+        <dt>FullStack web development proficiency:</dt>
+        <dd>
+          I want to gain proficiency in full stack web development to create solutions to certain problems that requires significant improvement in the world of tech💻.
+        </dd>
+        <dt>Fullstack web3 development proficiency</dt>
+        <dd>
+          As i acquires the necessary technical skills in the web2 ecosystem, I want to become proficient in the web3 ecosystem as well creating the Decentralized application gaining knowledge on certain languages and tools like solidity, rust, foundry, hardhat, vyper and many more which i've started getting familiar with💪.
+        </dd>
+      </dl>
         </section>
     </main>
+
+    <footer>
+      Hey 👀, before you leave. Check out these link, they might be HELPFUL!😁
+  
+      <ul>
+        <li>
+          <a data-testid="hngLink" href="https://hng.tech/learn" target="_blank"
+            >Help Newbies Grow</a
+          >
+        </li>
+        <li>
+          <a
+            data-testid="keywordLink"
+            href="https://keyword.dog"
+            target="_blank"
+            >KeyWord Dog</a
+          >
+        </li>
+        <li>
+          <a
+            data-testid="scrapeanywebLink"
+            href="https://scrapeanyweb.site"
+            target="_blank"
+            >Scrape Any Web</a
+          >
+        </li>
+      </ul>
+    </footer>
 </body>
 </html>
